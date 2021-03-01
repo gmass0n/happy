@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/gmass0n/happy">
-    <img src="./.github/happy.png" alt="Happy">
+    <img src="./.github/logo.svg" alt="Happy">
   </a>
   <h3 align="center">Happy WEB & Mobile</h3>
   <p align="center">
