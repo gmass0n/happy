@@ -3,7 +3,6 @@
     <img src="./.github/logo.svg" alt="Happy">
   </a>
   <p align="center">
-  <br />
     This project connects people to institutional care homes and makes many children's day happier.
   <br />
   <br />
@@ -11,7 +10,6 @@
   <br />
   <br />
     This project was development with Typescript, Expo CLI and others technologies.
-  <br />
   <br />
   <br />
   <p align="center">
