@@ -1,0 +1,115 @@
+#orphanages-page {
+  width: 100vw;
+  height: 100vh;
+  
+  position: relative;
+
+  display: flex;
+}
+
+#orphanages-page aside {
+  min-width: 440px;
+  max-width: 440px;
+  padding: 80px;
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#orphanages-page aside h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 42px;
+  margin-top: 64px;
+}
+
+#orphanages-page aside p {
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+#orphanages-page aside footer {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 24px;
+}
+
+#orphanages-page aside footer strong {
+  font-weight: 800;
+}
+
+#orphanages-page .orphanages-map {
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+#orphanages-page .orphanages-map .orphanages-map-popup .leaflet-popup-content-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+#orphanages-page .orphanages-map .orphanages-map-popup .leaflet-popup-content {
+  color: #0089a5;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#orphanages-page .orphanages-map .orphanages-map-popup .leaflet-popup-content a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#orphanages-page .orphanages-map .orphanages-map-popup .leaflet-popup-content a svg {
+  width: 15px;
+  height: 15px;
+  color: #0089a5;
+
+  transition: all 0.3s;
+}
+
+#orphanages-page .orphanages-map .orphanages-map-popup .leaflet-popup-content a:hover svg {
+  opacity: 0.4;
+}
+
+#orphanages-page .orphanages-map .orphanages-map-popup .leaflet-popup-tip-container {
+  display: none;
+}
+
+#orphanages-page .create-orphanage {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  z-index: 10;
+
+  width: 64px;
+  height: 64px;
+  background: #15c3d6;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.4s;
+}
+
+#orphanages-page .create-orphanage svg {
+  width: 26px;
+  height: 26px;
+  color: #fff;
+}
+
+#orphanages-page .create-orphanage:hover {
+  background: #17d6eb;
+}

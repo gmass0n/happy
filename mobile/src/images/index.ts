@@ -1,0 +1,1 @@
+export { default as mapMarkerImg } from './map-marker.png';
